@@ -1,0 +1,58 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8"/>
+    <title>Lunch Checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <style>
+      .message { font-size: 1.3em; font-weight: bold; }
+      input.ng-valid {
+    background-color: ;
+}
+    </style>
+
+  </head>
+<body>
+   <div class="container" ng-app="lunchApp" ng-controller="LunchCheckController">
+     <h1>Lunch Checker</h1>
+
+         <div class="form-group">
+<form name="lunchForm" novalidate>
+<table border="0">
+<tr>
+<td>
+           <input id="lunch-menu" type="text" name="userInput" placeholder="Start a comma separated list of what you'd like for lunch. (e.g. Pizza, Tuna, Corn etc..)" class="form-control" ng-model="userInput" required>
+    <span style = "color:red" ng-show = "lunchForm.userInput.$pristine"></span>
+                        <span ng-show = "lunchForm.userInput.$error.required">Waiting for input</span>
+
+</td>
+</tr>
+<tr>
+                  <td>
+                     <button ng-click = "reset()">Reset</button>
+                  </td>
+                  <td>
+                     <button ng-disabled = "lunchForm.userInput.$dirty" ng-click="checkLunch()">Submit</button>
+                  </td>
+               </tr>
+
+            </table>
+         </form>
+         <p>Your items so far are:{{userInput}}</p>
+      </div>
+
+         <div class="form-group message" ng-model="message" ng-bind="message">
+           {{message}}
+
+         </div>
+
+
+  </div>
+   
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

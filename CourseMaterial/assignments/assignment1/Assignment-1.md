@@ -7,9 +7,9 @@ Module 1 Coding Assignment
 ## Time to Complete
 It should take about an 1 hour or less. (This is just an estimate. People's backgrounds differ, so for some people it will take longer to complete.)
 
-**Ask questions in [Week 1 Discussion Forum](https://www.coursera.org/learn/single-page-web-apps-with-angularjs/discussions/weeks/1) if you get stuck! We are all learning, and going through getting stuck and then unstuck (even with someone’s help) can be a very valuable learning experience!**
+**Ask questions in [Week 1 Discussion Forum](https://www.coursera.org/learn/single-page-web-apps-with-angularjs/discussions/weeks/1) if you get stuck! We are all learning, and going through getting stuck and then unstuck (even with someone's help) can be a very valuable learning experience!**
 
-### **DO NOT be scared by the length of this assignment! It’s really not so much at all. I just wanted to explain everything as clearly as I could and break it down into smaller steps for your benefit.**
+### **DO NOT be scared by the length of this assignment! It's really not so much at all. I just wanted to explain everything as clearly as I could and break it down into smaller steps for your benefit.**
 
 
 ## Assignment Instructions
@@ -33,8 +33,8 @@ Breaking one of these rules will cause you to fail the assignment:
 ### Steps
 Here is what you will need to do to complete the assignment:
 
-1. (If you haven’t already) Create a GitHub.com account and a repository that you will use for this class.
-2. (If you haven’t already) Follow the Development Setup Video (beginning of Module 1) instructions on how to create a repository and set it up such that you can host and view your finished web pages on GitHub Pages, i.e., GitHub.io domain name. You will need to provide that URL for your peer review.
+1. (If you haven't already) Create a GitHub.com account and a repository that you will use for this class.
+2. (If you haven't already) Follow the Development Setup Video (beginning of Module 1) instructions on how to create a repository and set it up such that you can host and view your finished web pages on GitHub Pages, i.e., GitHub.io domain name. You will need to provide that URL for your peer review.
 3. Create a folder in your repository that will serve as a container folder for your solution to this assignment. You can call it whatever you want. For example, `module1-solution` or `mod1_solution`, etc.
   * You can do this by 'cloning' your repository with `git clone https://www.github.com/your_repo_url` to your local machine, creating `module1-solution` folder in the root of the repository directory along with a README.txt inside of the `module1-solution` directory. Then, you would do `git add .`, followed by `git commit -m 'New folder'`, followed by `git push` to upload the new folder with the README.txt to the GitHub repository.
 4. HTML/CSS for the assignment
